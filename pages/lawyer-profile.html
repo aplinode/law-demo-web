@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Lawyer Profile | Advocate Muhammad Ahmed</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@400;600;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:wght@100..900&display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-fixed": "#241a00",
+                    "surface-dim": "#dcd9d9",
+                    "on-primary-container": "#768baf",
+                    "surface-container-low": "#f6f3f2",
+                    "error-container": "#ffdad6",
+                    "inverse-on-surface": "#f3f0ef",
+                    "on-error": "#ffffff",
+                    "on-surface-variant": "#44474e",
+                    "on-tertiary-container": "#4e3d00",
+                    "surface-tint": "#4a5f81",
+                    "on-primary": "#ffffff",
+                    "tertiary-fixed-dim": "#e9c349",
+                    "secondary-fixed-dim": "#a0cafc",
+                    "outline-variant": "#c4c6cf",
+                    "inverse-primary": "#b2c7ef",
+                    "background": "#fcf9f8",
+                    "on-surface": "#1c1b1b",
+                    "on-error-container": "#93000a",
+                    "outline": "#74777e",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed": "#d1e4ff",
+                    "surface-bright": "#fcf9f8",
+                    "surface-container-highest": "#e5e2e1",
+                    "primary-container": "#0a2342",
+                    "on-secondary-fixed-variant": "#184974",
+                    "surface-variant": "#e5e2e1",
+                    "primary": "#000d22",
+                    "surface": "#fcf9f8",
+                    "secondary-container": "#a2cdff",
+                    "surface-container": "#f0eded",
+                    "tertiary-container": "#cba72f",
+                    "tertiary-fixed": "#ffe088",
+                    "on-secondary-container": "#2a5782",
+                    "on-primary-fixed-variant": "#324768",
+                    "error": "#ba1a1a",
+                    "secondary": "#35618d",
+                    "surface-container-high": "#eae7e7",
+                    "primary-fixed": "#d5e3ff",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary-fixed": "#001d35",
+                    "primary-fixed-dim": "#b2c7ef",
+                    "on-background": "#1c1b1b",
+                    "tertiary": "#735c00",
+                    "inverse-surface": "#313030",
+                    "on-primary-fixed": "#021c3a",
+                    "on-tertiary-fixed-variant": "#574500",
+                    "surface-container-lowest": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "section-v": "100px",
+                    "margin-page": "auto",
+                    "container-max": "1200px",
+                    "gutter": "24px",
+                    "card-gap": "32px"
+            },
+            "fontFamily": {
+                    "headline-lg": ["Montserrat"],
+                    "body-md": ["Inter"],
+                    "headline-md": ["Montserrat"],
+                    "display-lg-mobile": ["Montserrat"],
+                    "label-md": ["Inter"],
+                    "headline-sm": ["Montserrat"],
+                    "display-lg": ["Montserrat"],
+                    "body-lg": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-lg": ["40px", {"lineHeight": "48px", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                    "display-lg-mobile": ["40px", {"lineHeight": "48px", "fontWeight": "700"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "display-lg": ["64px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+
+  <link rel="stylesheet" href="../assets/css/style.css"/>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-tertiary-container selection:text-primary">
+<!-- Top Navigation Bar -->
+<nav class="sticky top-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-sm border-b-2 border-tertiary-container">
+<div class="flex justify-between items-center px-gutter h-20">
+<a class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight" href="../index.html">Muhammad Ahmed</a>
+<div class="hidden md:flex items-center gap-6 font-body-md text-label-md uppercase tracking-wider whitespace-nowrap">
+<a class="text-primary hover:text-tertiary-container transition-colors" href="../index.html">Home</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="about.html">About</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="practice-areas.html">Practice Areas</a>
+<a class="text-tertiary-container font-bold border-b-2 border-tertiary-container" href="lawyer-profile.html">Lawyer</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="case-process.html">Case Process</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="articles.html">Articles</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="faq.html">FAQ</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="reviews.html">Reviews</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="contact.html">Contact</a>
+</div>
+<button class="md:hidden text-primary p-2 hover:text-tertiary-container transition-colors" id="mobile-menu-btn" aria-label="Open menu"><span class="material-symbols-outlined text-3xl">menu</span></button>
+<a class="hidden md:block bg-primary text-on-primary px-6 py-2 rounded-lg font-label-md hover:bg-primary-container transition-all active:scale-95 ml-6 lg:ml-10" href="appointment.html">
+                Appointment
+            </a>
+</div>
+</nav>
+<main class="max-w-container-max mx-auto px-gutter py-section-v">
+<!-- Profile Header Section -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-card-gap mb-20">
+<!-- Image & Identity Sidebar -->
+<div class="lg:col-span-5 relative group lawyer-card-hover overflow-hidden rounded-xl bg-white shadow-lg border border-outline-variant/20">
+<div class="aspect-[4/5] relative">
+<img class="w-full h-full object-cover" data-alt="A dignified professional portrait of a senior Pakistani male lawyer with salt-and-pepper hair, wearing a high-quality black tailored suit and a crisp white shirt. He stands against a blurred background of a sophisticated law office with mahogany bookshelves. The lighting is soft and cinematic, casting professional highlights that emphasize his authoritative yet approachable demeanor. The color palette is dominated by deep navy, charcoal, and subtle gold accents, maintaining a premium corporate legal aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuChFWF1sDANkNpuaErhCXNkPDK2YfwqNlNJWhDpLpuEym3ShWvBH3vCOrCLEa-D5KicglKY4supJENDvqiGpECtYDfsJwBAM-7Icx13gi64xftAPhGMnQ4q7oTLrZuQSmzSopIYfG1XsW9P93oQiO7IDzsbI6qOajSDrO61_56gZOfrHazYJp7rguwcdH-zrD-PIEybOciGtRuEk_ZoTxB50t5lZH_pjoe_lHJSTqeuQB_cJzLGLzuVubHoZXwtOsiVxc5EqGPk9viw"/>
+<!-- Bio Overlay (Interaction) -->
+<div class="bio-overlay absolute inset-0 bg-primary/90 p-10 flex flex-col justify-center items-start opacity-0 translate-y-4 transition-all duration-500 backdrop-blur-sm">
+<h3 class="text-tertiary-fixed font-headline-sm mb-4">Professional Bio</h3>
+<p class="text-on-primary/90 font-body-md leading-relaxed overflow-y-auto custom-scroll max-h-[300px] pr-4">
+                            Advocate Muhammad Ahmed is a distinguished legal professional with over 15 years of experience in the High Courts and Supreme Court of Pakistan. Specializing in intricate Corporate disputes and Civil litigation, he has built a reputation for meticulous legal strategy and unwavering integrity. His approach combines traditional legal wisdom with a modern understanding of global corporate frameworks, making him a preferred counsel for both local conglomerates and individual high-stakes cases.
+                        </p>
+<div class="mt-8 flex gap-4">
+<span class="material-symbols-outlined text-tertiary-fixed text-4xl">gavel</span>
+<span class="material-symbols-outlined text-tertiary-fixed text-4xl">balance</span>
+</div>
+</div>
+</div>
+<div class="p-8 border-t-4 border-tertiary-container">
+<h1 class="font-headline-lg text-headline-lg text-primary mb-2">Advocate Muhammad Ahmed</h1>
+<p class="text-tertiary font-headline-sm tracking-wide">Senior Partner & Advocate Supreme Court</p>
+</div>
+</div>
+<!-- Credentials & Details Canvas -->
+<div class="lg:col-span-7 flex flex-col gap-10">
+<!-- Status & Experience Bento -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="p-6 bg-surface-container-lowest border border-outline-variant/30 rounded-xl">
+<div class="flex items-center gap-4 mb-4">
+<span class="material-symbols-outlined text-tertiary text-3xl">school</span>
+<h4 class="font-headline-sm text-primary">Qualification</h4>
+</div>
+<ul class="space-y-2 text-on-surface-variant font-body-md">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-sm" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                LL.M. - International Business Law
+                            </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-sm" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                LL.B. (Hons) - Punjab University
+                            </li>
+</ul>
+</div>
+<div class="p-6 bg-surface-container-lowest border border-outline-variant/30 rounded-xl">
+<div class="flex items-center gap-4 mb-4">
+<span class="material-symbols-outlined text-tertiary text-3xl">history_edu</span>
+<h4 class="font-headline-sm text-primary">Experience</h4>
+</div>
+<p class="text-display-lg text-tertiary font-bold leading-tight">15+</p>
+<p class="text-on-surface-variant uppercase tracking-widest font-label-md">Years of Legal Practice</p>
+</div>
+</div>
+<!-- Specialization & Court Tabs -->
+<div class="p-8 bg-primary-container text-on-primary rounded-xl relative overflow-hidden">
+<div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+<div>
+<h4 class="font-label-md text-tertiary-fixed uppercase mb-4 tracking-widest">Specialization</h4>
+<div class="flex flex-wrap gap-3">
+<span class="px-4 py-2 bg-on-primary-container/20 border border-on-primary-container/40 rounded-full text-white font-label-md">Corporate Law</span>
+<span class="px-4 py-2 bg-on-primary-container/20 border border-on-primary-container/40 rounded-full text-white font-label-md">Civil Litigation</span>
+<span class="px-4 py-2 bg-on-primary-container/20 border border-on-primary-container/40 rounded-full text-white font-label-md">Arbitration</span>
+<span class="px-4 py-2 bg-on-primary-container/20 border border-on-primary-container/40 rounded-full text-white font-label-md">IP Law</span>
+</div>
+</div>
+<div>
+<h4 class="font-label-md text-tertiary-fixed uppercase mb-4 tracking-widest">Court Membership</h4>
+<ul class="space-y-3">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-tertiary-fixed" style="font-variation-settings: 'FILL' 1;">verified</span>
+<div>
+<p class="font-headline-sm leading-none">Supreme Court</p>
+<p class="text-xs text-on-primary-container/80 mt-1">Enrollment No. SC-9821</p>
+</div>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-tertiary-fixed" style="font-variation-settings: 'FILL' 1;">verified</span>
+<div>
+<p class="font-headline-sm leading-none">Lahore High Court</p>
+<p class="text-xs text-on-primary-container/80 mt-1">Life Member LHCBA</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<!-- Subtle watermark effect -->
+<span class="material-symbols-outlined absolute -right-4 -bottom-4 text-[120px] opacity-10 rotate-12">account_balance</span>
+</div>
+<!-- Footer Info Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="p-6 border-l-4 border-tertiary bg-white">
+<span class="material-symbols-outlined text-tertiary mb-2">translate</span>
+<h5 class="font-label-md uppercase text-primary-container mb-1">Languages</h5>
+<p class="text-on-surface-variant font-body-md">English, Urdu, Punjabi</p>
+</div>
+<div class="p-6 border-l-4 border-tertiary bg-white">
+<span class="material-symbols-outlined text-tertiary mb-2">schedule</span>
+<h5 class="font-label-md uppercase text-primary-container mb-1">Working Hours</h5>
+<p class="text-on-surface-variant font-body-md">Mon - Sat<br/>09:00 AM - 06:00 PM</p>
+</div>
+<div class="flex items-center justify-center">
+<a class="w-full h-full bg-tertiary-container text-primary font-bold text-headline-sm hover:bg-tertiary-fixed transition-colors flex items-center justify-center gap-2 group shadow-lg" href="appointment.html">
+                    <span>Book Appointment</span>
+                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Practice Highlights (Bento Section) -->
+<div class="mt-20">
+<div class="mb-12 border-b border-outline-variant/30 pb-6 flex justify-between items-end">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-primary">Core Practice Areas</h2>
+<p class="text-on-surface-variant font-body-lg">Proven expertise in high-value legal representation.</p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-card-gap">
+<div class="md:col-span-2 group relative overflow-hidden rounded-xl h-64 shadow-md bg-primary text-white p-10 flex flex-col justify-end">
+<div class="absolute top-0 right-0 p-8">
+<span class="material-symbols-outlined text-tertiary-fixed text-6xl opacity-30">business</span>
+</div>
+<h3 class="font-headline-md mb-2 relative z-10">Corporate Advisory</h3>
+<p class="font-body-md text-on-primary-container relative z-10">Structuring deals, compliance, and cross-border litigation.</p>
+</div>
+<div class="group relative overflow-hidden rounded-xl h-64 shadow-md bg-white border border-outline-variant/30 p-8 flex flex-col">
+<span class="material-symbols-outlined text-tertiary text-4xl mb-4">gavel</span>
+<h3 class="font-headline-sm text-primary mb-auto">Civil Litigation</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Complex property and contract disputes.</p>
+</div>
+<div class="group relative overflow-hidden rounded-xl h-64 shadow-md bg-white border border-outline-variant/30 p-8 flex flex-col">
+<span class="material-symbols-outlined text-tertiary text-4xl mb-4">handshake</span>
+<h3 class="font-headline-sm text-primary mb-auto">Arbitration</h3>
+<p class="font-body-md text-on-surface-variant text-sm">Resolution through ADR and private mediation.</p>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-primary dark:bg-primary-container text-on-primary dark:text-on-primary-container border-t border-outline-variant/20">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-card-gap max-w-container-max mx-auto px-gutter py-section-v">
+<div class="md:col-span-1">
+<h2 class="font-headline-md text-headline-md text-tertiary-fixed font-bold mb-6">Muhammad Ahmed</h2>
+<p class="font-body-md opacity-80 mb-6">Providing distinguished legal counsel with integrity and excellence for over 15 years.</p>
+</div>
+<div class="md:col-span-1">
+<h4 class="font-label-md uppercase tracking-widest text-tertiary-fixed mb-6">Quick Links</h4>
+<div class="flex flex-col gap-4">
+<a class="font-body-md hover:text-tertiary-fixed transition-colors duration-200" href="faq.html">FAQ</a>
+<a class="font-body-md hover:text-tertiary-fixed transition-colors duration-200" href="reviews.html">Reviews</a>
+<a class="font-body-md hover:text-tertiary-fixed transition-colors duration-200" href="contact.html">Contact</a>
+</div>
+</div>
+<div class="md:col-span-1">
+<h4 class="font-label-md uppercase tracking-widest text-tertiary-fixed mb-6">Legal</h4>
+<div class="flex flex-col gap-4">
+<a class="font-body-md hover:text-tertiary-fixed transition-colors duration-200" href="#">Privacy Policy</a>
+<a class="font-body-md hover:text-tertiary-fixed transition-colors duration-200" href="#">Terms of Service</a>
+</div>
+</div>
+<div class="md:col-span-1">
+<h4 class="font-label-md uppercase tracking-widest text-tertiary-fixed mb-6">Location</h4>
+<div class="aspect-video rounded-lg overflow-hidden grayscale contrast-125 mb-4">
+<img class="w-full h-full object-cover" data-alt="A clean, minimalist map graphic of the Lahore city area focusing on the legal district and High Court surroundings. The map uses a premium dark navy and gold color scheme to align with the law firm's brand identity. All labels are in a clear sans-serif font, highlighting key landmarks for a professional legal practice environment." data-location="Lahore" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpRDmwMYKp-_Gn5uilFVj5-2VFhZJt1P9XT4tZNMsiHc6I-AQkh-QfpxBPU1w430PFVQGPvk0e5OPLM1yv_pjn_O1I_sWYpTd4eXK4-xUA8Ppp7Y5RkLgakx-1ct5ejC18wxAM_4Xl_gi35Mxn9vVZBFFN0fFJeCetbJUhdtd0vEfZwo9XR62Uqq-b82pf2bUs0P1O879Daaj0cGumUm7mB0VqjgUyH38AS55G2k4YH9g8e8NPGVzc4kUsTfHwIYaved8nCo8VSlXW"/>
+</div>
+<p class="font-body-md opacity-80">Lahore High Court Chambers, Lahore, Pakistan</p>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-gutter py-8 border-t border-white/10 text-center">
+<p class="font-body-md opacity-60">© 2024 Advocate Muhammad Ahmed. All Rights Reserved.</p>
+</div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+
+<!-- Mobile Navigation Sidebar -->
+<div class="fixed inset-0 z-50 md:hidden invisible opacity-0 transition-all duration-300" id="mobile-nav">
+  <div class="absolute inset-0 bg-black/40" id="mobile-nav-backdrop"></div>
+  <div class="absolute top-0 right-0 h-full w-80 max-w-[85vw] bg-primary shadow-2xl transform translate-x-full transition-transform duration-300 overflow-y-auto" id="mobile-nav-panel">
+    <div class="flex items-center justify-between px-6 h-20 border-b border-white/10">
+      <span class="font-headline-sm text-headline-sm text-tertiary-fixed font-bold">Muhammad Ahmed</span>
+      <button id="mobile-nav-close" class="text-white p-2 hover:text-tertiary-fixed transition-colors" aria-label="Close menu">
+        <span class="material-symbols-outlined text-3xl">close</span>
+      </button>
+    </div>
+    <nav class="flex flex-col py-8 px-6 space-y-1">
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="../index.html"><span class="material-symbols-outlined text-tertiary-fixed">home</span> Home</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="about.html"><span class="material-symbols-outlined text-tertiary-fixed">info</span> About</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="practice-areas.html"><span class="material-symbols-outlined text-tertiary-fixed">gavel</span> Practice Areas</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-tertiary-fixed bg-white/5 rounded-lg transition-all" href="lawyer-profile.html"><span class="material-symbols-outlined text-tertiary-fixed">badge</span> Lawyer Profile</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="case-process.html"><span class="material-symbols-outlined text-tertiary-fixed">account_tree</span> Case Process</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="articles.html"><span class="material-symbols-outlined text-tertiary-fixed">article</span> Articles</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="faq.html"><span class="material-symbols-outlined text-tertiary-fixed">help</span> FAQ</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="reviews.html"><span class="material-symbols-outlined text-tertiary-fixed">star</span> Reviews</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="contact.html"><span class="material-symbols-outlined text-tertiary-fixed">mail</span> Contact</a>
+    </nav>
+    <div class="p-6 border-t border-white/10 mt-auto">
+      <a href="appointment.html" class="block w-full bg-tertiary-container text-primary text-center py-4 rounded-lg font-bold uppercase tracking-wider hover:bg-tertiary-fixed transition-colors">Book Appointment</a>
+    </div>
+  </div>
+</div>
+</body></html>

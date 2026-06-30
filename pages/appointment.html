@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Book an Appointment | Advocate Muhammad Ahmed</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&amp;family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-fixed": "#241a00",
+                    "surface-dim": "#dcd9d9",
+                    "on-primary-container": "#768baf",
+                    "surface-container-low": "#f6f3f2",
+                    "error-container": "#ffdad6",
+                    "inverse-on-surface": "#f3f0ef",
+                    "on-error": "#ffffff",
+                    "on-surface-variant": "#44474e",
+                    "on-tertiary-container": "#4e3d00",
+                    "surface-tint": "#4a5f81",
+                    "on-primary": "#ffffff",
+                    "tertiary-fixed-dim": "#e9c349",
+                    "secondary-fixed-dim": "#a0cafc",
+                    "outline-variant": "#c4c6cf",
+                    "inverse-primary": "#b2c7ef",
+                    "background": "#fcf9f8",
+                    "on-surface": "#1c1b1b",
+                    "on-error-container": "#93000a",
+                    "outline": "#74777e",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed": "#d1e4ff",
+                    "surface-bright": "#fcf9f8",
+                    "surface-container-highest": "#e5e2e1",
+                    "primary-container": "#0a2342",
+                    "on-secondary-fixed-variant": "#184974",
+                    "surface-variant": "#e5e2e1",
+                    "primary": "#000d22",
+                    "surface": "#fcf9f8",
+                    "secondary-container": "#a2cdff",
+                    "surface-container": "#f0eded",
+                    "tertiary-container": "#cba72f",
+                    "tertiary-fixed": "#ffe088",
+                    "on-secondary-container": "#2a5782",
+                    "on-primary-fixed-variant": "#324768",
+                    "error": "#ba1a1a",
+                    "secondary": "#35618d",
+                    "surface-container-high": "#eae7e7",
+                    "primary-fixed": "#d5e3ff",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary-fixed": "#001d35",
+                    "primary-fixed-dim": "#b2c7ef",
+                    "on-background": "#1c1b1b",
+                    "tertiary": "#735c00",
+                    "inverse-surface": "#313030",
+                    "on-primary-fixed": "#021c3a",
+                    "on-tertiary-fixed-variant": "#574500",
+                    "surface-container-lowest": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "section-v": "100px",
+                    "margin-page": "auto",
+                    "container-max": "1200px",
+                    "gutter": "24px",
+                    "card-gap": "32px"
+            },
+            "fontFamily": {
+                    "headline-lg": ["Montserrat"],
+                    "body-md": ["Inter"],
+                    "headline-md": ["Montserrat"],
+                    "display-lg-mobile": ["Montserrat"],
+                    "label-md": ["Inter"],
+                    "headline-sm": ["Montserrat"],
+                    "display-lg": ["Montserrat"],
+                    "body-lg": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-lg": ["40px", {"lineHeight": "48px", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                    "display-lg-mobile": ["40px", {"lineHeight": "48px", "fontWeight": "700"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "display-lg": ["64px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+
+  <link rel="stylesheet" href="../assets/css/style.css"/>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-tertiary-container selection:text-white">
+<!-- Top Navigation Bar -->
+<header class="sticky top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b-2 border-tertiary-container shadow-sm h-20">
+<div class="flex justify-between items-center px-gutter h-full">
+<a class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight" href="../index.html">
+                Muhammad Ahmed
+            </a>
+<nav class="hidden md:flex items-center gap-6 font-body-md text-label-md uppercase tracking-wider whitespace-nowrap">
+<a class="text-primary hover:text-tertiary-container transition-colors" href="../index.html">Home</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="about.html">About</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="practice-areas.html">Practice Areas</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="lawyer-profile.html">Lawyer</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="case-process.html">Case Process</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="articles.html">Articles</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="faq.html">FAQ</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="reviews.html">Reviews</a>
+<a class="text-primary hover:text-tertiary-container transition-colors" href="contact.html">Contact</a>
+</nav>
+<div class="flex items-center">
+<button class="md:hidden text-primary p-2 hover:text-tertiary-container transition-colors" id="mobile-menu-btn" aria-label="Open menu"><span class="material-symbols-outlined text-3xl">menu</span></button>
+<a class="hidden md:block bg-tertiary-container text-primary font-bold border-b-2 border-tertiary-container px-6 py-2 rounded-lg text-label-md uppercase tracking-wider ml-6 lg:ml-10" href="#">
+                    Appointment
+                </a>
+</div>
+</div>
+</header>
+<main class="min-h-screen bg-mesh py-section-v">
+<div class="max-w-container-max mx-auto px-gutter">
+<!-- Page Header -->
+<div class="mb-16 text-center md:text-left">
+<h1 class="font-headline-lg text-headline-lg text-primary mb-4">Schedule a Professional Consultation</h1>
+<p class="font-body-lg text-body-lg text-outline max-w-2xl">Secure your session with Advocate Muhammad Ahmed. Our legal team will review your case details and confirm your appointment within 24 hours.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-card-gap items-start">
+<!-- Appointment Form -->
+<div class="lg:col-span-8 bg-surface-container-lowest border border-outline-variant/30 rounded-xl p-8 md:p-12 shadow-[0px_4px_20px_rgba(10,35,66,0.05)]">
+<form class="space-y-8" id="appointmentForm">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Name -->
+<div class="space-y-2">
+<label class="block font-body-md text-label-md font-bold text-primary uppercase tracking-wide">Full Name</label>
+<input class="w-full bg-surface-bright border border-outline-variant rounded-lg p-4 font-body-md form-input-focus transition-all" id="userName" placeholder="e.g. Zahid Khan" required="" type="text"/>
+</div>
+<!-- Phone -->
+<div class="space-y-2">
+<label class="block font-body-md text-label-md font-bold text-primary uppercase tracking-wide">Phone Number</label>
+<input class="w-full bg-surface-bright border border-outline-variant rounded-lg p-4 font-body-md form-input-focus transition-all" id="userPhone" placeholder="+92 3XX XXXXXXX" required="" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Email -->
+<div class="space-y-2">
+<label class="block font-body-md text-label-md font-bold text-primary uppercase tracking-wide">Email Address</label>
+<input class="w-full bg-surface-bright border border-outline-variant rounded-lg p-4 font-body-md form-input-focus transition-all" id="userEmail" placeholder="name@example.com" required="" type="email"/>
+</div>
+<!-- Practice Area -->
+<div class="space-y-2">
+<label class="block font-body-md text-label-md font-bold text-primary uppercase tracking-wide">Practice Area</label>
+<select class="w-full bg-surface-bright border border-outline-variant rounded-lg p-4 font-body-md form-input-focus transition-all appearance-none cursor-pointer" id="practiceArea" required="">
+<option disabled="" selected="" value="">Select Legal Service</option>
+<option value="Corporate Law">Corporate Law</option>
+<option value="Criminal Defense">Criminal Defense</option>
+<option value="Civil Litigation">Civil Litigation</option>
+<option value="Family Law">Family Law</option>
+<option value="Intellectual Property">Intellectual Property</option>
+<option value="Taxation">Taxation</option>
+</select>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Preferred Date -->
+<div class="space-y-2">
+<label class="block font-body-md text-label-md font-bold text-primary uppercase tracking-wide">Preferred Date</label>
+<div class="relative">
+<input class="w-full bg-surface-bright border border-outline-variant rounded-lg p-4 font-body-md form-input-focus transition-all cursor-pointer" id="prefDate" required="" type="date"/>
+<span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-outline pointer-events-none">calendar_today</span>
+</div>
+</div>
+<!-- Preferred Time Slots -->
+<div class="space-y-2">
+<label class="block font-body-md text-label-md font-bold text-primary uppercase tracking-wide">Preferred Time</label>
+<div class="grid grid-cols-3 gap-2" id="timeSlots">
+<button class="time-slot border border-outline-variant rounded p-2 text-label-md hover:bg-secondary-container transition-colors" data-time="09:00 AM" type="button">09:00 AM</button>
+<button class="time-slot border border-outline-variant rounded p-2 text-label-md hover:bg-secondary-container transition-colors" data-time="11:00 AM" type="button">11:00 AM</button>
+<button class="time-slot border border-outline-variant rounded p-2 text-label-md hover:bg-secondary-container transition-colors" data-time="02:00 PM" type="button">02:00 PM</button>
+<button class="time-slot border border-outline-variant rounded p-2 text-label-md hover:bg-secondary-container transition-colors" data-time="04:00 PM" type="button">04:00 PM</button>
+<button class="time-slot border border-outline-variant rounded p-2 text-label-md hover:bg-secondary-container transition-colors" data-time="06:00 PM" type="button">06:00 PM</button>
+<button class="time-slot border border-outline-variant rounded p-2 text-label-md hover:bg-secondary-container transition-colors" data-time="08:00 PM" type="button">08:00 PM</button>
+</div>
+<input id="selectedTime" required="" type="hidden"/>
+</div>
+</div>
+<!-- Message -->
+<div class="space-y-2">
+<label class="block font-body-md text-label-md font-bold text-primary uppercase tracking-wide">Case Summary (Optional)</label>
+<textarea class="w-full bg-surface-bright border border-outline-variant rounded-lg p-4 font-body-md form-input-focus transition-all resize-none" id="userMessage" placeholder="Briefly describe your legal inquiry..." rows="4"></textarea>
+</div>
+<!-- Submit Button -->
+<div class="pt-4">
+<button class="w-full md:w-auto bg-primary text-white px-12 py-4 rounded-lg font-bold text-label-md uppercase tracking-widest hover:bg-secondary transition-all active:scale-95 flex items-center justify-center gap-2" type="submit">
+                                Request Appointment
+                                <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</form>
+<!-- Success UI (Hidden by default) -->
+<div class="hidden flex flex-col items-center justify-center text-center py-12 animate-in fade-in zoom-in duration-500" id="successUI">
+<div class="w-20 h-20 bg-tertiary-container rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-4xl" style="font-variation-settings: 'wght' 700;">check</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Request Received</h3>
+<p class="font-body-lg text-body-lg text-outline max-w-md mx-auto mb-8">Thank you. Your consultation request has been logged. Our office will contact you shortly to finalize the booking.</p>
+<button class="border-2 border-primary text-primary px-8 py-3 rounded-lg font-bold text-label-md uppercase tracking-wider hover:bg-primary hover:text-white transition-all" onclick="window.location.reload()">
+                            Book Another
+                        </button>
+</div>
+</div>
+<!-- Sidebar Summary Card -->
+<aside class="lg:col-span-4 space-y-8">
+<div class="bg-primary text-on-primary rounded-xl p-8 shadow-xl border-b-4 border-tertiary-container sticky top-28">
+<h4 class="font-headline-sm text-headline-sm text-tertiary-fixed mb-6 pb-4 border-b border-on-primary-container/20">Appointment Summary</h4>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-tertiary-fixed">account_balance</span>
+<div>
+<p class="text-label-md uppercase tracking-tighter text-on-primary-container">Legal Counsel</p>
+<p class="font-headline-sm text-lg">Adv. Muhammad Ahmed</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-tertiary-fixed">business_center</span>
+<div>
+<p class="text-label-md uppercase tracking-tighter text-on-primary-container">Selected Area</p>
+<p class="font-headline-sm text-lg" id="summaryPractice">---</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-tertiary-fixed">event</span>
+<div>
+<p class="text-label-md uppercase tracking-tighter text-on-primary-container">Date &amp; Time</p>
+<p class="font-headline-sm text-lg" id="summaryDateTime">---</p>
+</div>
+</div>
+</div>
+<div class="mt-10 p-4 bg-primary-container/50 rounded-lg border border-outline/20">
+<p class="text-label-md text-on-primary-container italic">"Integrity and expertise are the foundations of my practice. I look forward to reviewing your case personally."</p>
+<div class="mt-4 flex items-center gap-3">
+<div class="w-10 h-10 rounded-full overflow-hidden border border-tertiary-fixed/30 bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="A professional headshot of a middle-aged male South Asian lawyer in a sharp navy blue three-piece suit, standing against a background of leather-bound legal books. The lighting is soft and authoritative, emphasizing a trustworthy and seasoned professional demeanor. He has a subtle, confident smile and well-groomed hair, conveying high-tier legal expertise." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWqqG2Vtm_SyU5W5tn_pLjAh8wvXBiPGrPF_oIBOubbaFUGkA-7DWM5E4g_ctMnBxfmSHES3DOkghrgEKG7i6CgS6KWTbd3cbGbUAIM35DAoVU5gHJdT2ywZq9jkbK5z_PF9-InNrDOpw1lZL4RzC5mUIL4tN2b2l3rcoRjQBv8Ckr41S6wKCNiR3SgB6w9V9SumlKfrPaKWADPeIOXQvFm6aE6KAz-ZxaANRbXFHUMdOforP0oBJaC56NxKYelQHYefYJITtK2Gqn"/>
+</div>
+<span class="font-headline-sm text-sm text-tertiary-fixed">M. Ahmed, Advocate</span>
+</div>
+</div>
+</div>
+<!-- Trust Indicators -->
+<div class="bg-surface-container-high rounded-xl p-6 border border-outline-variant/20">
+<h5 class="font-label-md text-label-md text-primary uppercase mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary">verified_user</span>
+                            Professional Standard
+                        </h5>
+<ul class="space-y-3 text-body-md text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-container text-sm">check_circle</span>
+                                Confidential case evaluation
+                            </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-container text-sm">check_circle</span>
+                                Flexible video/in-person slots
+                            </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-container text-sm">check_circle</span>
+                                High Court Bar Association member
+                            </li>
+</ul>
+</div>
+</aside>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-primary text-on-primary w-full border-t border-outline-variant/20">
+<div class="max-w-container-max mx-auto px-gutter py-section-v">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-card-gap">
+<div class="col-span-1 md:col-span-2">
+<div class="font-headline-md text-headline-md text-tertiary-fixed font-bold mb-6">Muhammad Ahmed</div>
+<p class="font-body-md text-on-primary/80 max-w-sm mb-8">Providing premier legal counsel with a commitment to justice, ethics, and strategic excellence across Pakistan.</p>
+</div>
+<div>
+<h6 class="font-label-md text-label-md text-tertiary-fixed uppercase mb-6">Quick Links</h6>
+<nav class="flex flex-col gap-4">
+<a class="font-body-md text-on-primary/80 hover:text-tertiary-fixed transition-colors" href="faq.html">FAQ</a>
+<a class="font-body-md text-on-primary/80 hover:text-tertiary-fixed transition-colors" href="reviews.html">Reviews</a>
+<a class="font-body-md text-on-primary/80 hover:text-tertiary-fixed transition-colors" href="contact.html">Contact</a>
+<a class="font-body-md text-on-primary/80 hover:text-tertiary-fixed transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-md text-on-primary/80 hover:text-tertiary-fixed transition-colors" href="#">Terms of Service</a>
+</nav>
+</div>
+<div>
+<h6 class="font-label-md text-label-md text-tertiary-fixed uppercase mb-6">Office Address</h6>
+<p class="font-body-md text-on-primary/80">
+                        Level 4, Corporate Plaza<br/>
+                        Blue Area, Islamabad<br/>
+                        Pakistan
+                    </p>
+</div>
+</div>
+<div class="mt-20 pt-8 border-t border-on-primary/10 text-center md:text-left font-body-md text-body-md text-on-primary/60">
+                © 2024 Advocate Muhammad Ahmed. All Rights Reserved.
+            </div>
+</div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+
+<!-- Mobile Navigation Sidebar -->
+<div class="fixed inset-0 z-50 md:hidden invisible opacity-0 transition-all duration-300" id="mobile-nav">
+  <div class="absolute inset-0 bg-black/40" id="mobile-nav-backdrop"></div>
+  <div class="absolute top-0 right-0 h-full w-80 max-w-[85vw] bg-primary shadow-2xl transform translate-x-full transition-transform duration-300 overflow-y-auto" id="mobile-nav-panel">
+    <div class="flex items-center justify-between px-6 h-20 border-b border-white/10">
+      <span class="font-headline-sm text-headline-sm text-tertiary-fixed font-bold">Muhammad Ahmed</span>
+      <button id="mobile-nav-close" class="text-white p-2 hover:text-tertiary-fixed transition-colors" aria-label="Close menu">
+        <span class="material-symbols-outlined text-3xl">close</span>
+      </button>
+    </div>
+    <nav class="flex flex-col py-8 px-6 space-y-1">
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="../index.html"><span class="material-symbols-outlined text-tertiary-fixed">home</span> Home</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="about.html"><span class="material-symbols-outlined text-tertiary-fixed">info</span> About</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="practice-areas.html"><span class="material-symbols-outlined text-tertiary-fixed">gavel</span> Practice Areas</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="lawyer-profile.html"><span class="material-symbols-outlined text-tertiary-fixed">badge</span> Lawyer Profile</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="case-process.html"><span class="material-symbols-outlined text-tertiary-fixed">account_tree</span> Case Process</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="articles.html"><span class="material-symbols-outlined text-tertiary-fixed">article</span> Articles</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="faq.html"><span class="material-symbols-outlined text-tertiary-fixed">help</span> FAQ</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="reviews.html"><span class="material-symbols-outlined text-tertiary-fixed">star</span> Reviews</a>
+      <a class="flex items-center gap-4 px-4 py-4 text-lg font-headline-md text-on-primary/80 hover:text-tertiary-fixed hover:bg-white/5 rounded-lg transition-all" href="contact.html"><span class="material-symbols-outlined text-tertiary-fixed">mail</span> Contact</a>
+    </nav>
+    <div class="p-6 border-t border-white/10 mt-auto">
+      <a href="appointment.html" class="block w-full bg-tertiary-container text-primary text-center py-4 rounded-lg font-bold uppercase tracking-wider hover:bg-tertiary-fixed transition-colors">Book Appointment</a>
+    </div>
+  </div>
+</div>
+</body></html>
